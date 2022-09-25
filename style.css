@@ -127,7 +127,7 @@ body {
 /* Home Page */
 #hero{
     display: flex;
-    background-image: url("./img/hero4.png");
+    background-image: url("./img/hero5.png");
     height: 90vh;
     width: 100%;
     background-size: cover;
