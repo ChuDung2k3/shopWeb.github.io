@@ -304,7 +304,8 @@ body {
     display: flex;
 
     justify-content: space-between;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
+    ma
 }
 #sm-banner .banner-box{
     display: flex;
@@ -1116,4 +1117,7 @@ footer .copyright{
         width: 100%;
         padding: 20px;
     }
+}
+h5{
+    text-transform: uppercase;
 }
