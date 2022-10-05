@@ -259,6 +259,9 @@ body {
     font-weight: 700;
     color: #645CAA;
 }
+#product1 .pro .des h4 span{
+    text-decoration: line-through;
+}
 #product1 .pro .cart-btn{
     position: absolute;
     width: 40px;
