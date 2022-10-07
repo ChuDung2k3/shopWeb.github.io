@@ -77,7 +77,7 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 20px 80px;
-    background-color: #E3E6F3;
+    background-color: #BFACE0;
     box-shadow: 0 5px 15px rgba(0,0,0, 0.06);
     z-index: 999;
     top: 0;
@@ -103,7 +103,7 @@ body {
 }
 #navbar li a:hover,
 #navbar li a.active {
-    color: #088178;
+    color: #645CAA;
 }
 #navbar li a.active::after,
 #navbar li a:hover::after{
@@ -111,7 +111,7 @@ body {
     content: "";
     width: 30%;
     height: 2px;
-    background-color: #088178;
+    background-color: #645CAA;
     bottom: -4px;
     left: 20px;
 }
@@ -141,14 +141,14 @@ body {
     padding-bottom: 15px;
 }
 #hero h1{
-    color: #088178;
+    color: #645CAA;
 }
 
 #hero button{
     background-image: url("./img/button.png");
     background-color: transparent;
     border: 0;
-    color:#088178;
+    color:#645CAA;
     padding:14px 80px 14px 65px;
     background-repeat: no-repeat;
     cursor: pointer;
@@ -185,7 +185,7 @@ body {
     padding: 9px 8px 6px 8px;
     line-height: 1;
     border-radius: 4px;
-    color:#088178;
+    color:#645CAA;
     background-color: #d1e8f2;
 }
 #feature .fe-box:nth-child(2) h6{
@@ -257,7 +257,10 @@ body {
     padding-top:7px;
     font-size: 15px;
     font-weight: 700;
-    color: #088178;
+    color: #645CAA;
+}
+#product1 .pro .des h4 span{
+    text-decoration: line-through;
 }
 #product1 .pro .cart-btn{
     position: absolute;
@@ -265,9 +268,9 @@ body {
     height: 40px;
     line-height: 40px;
     border-radius: 50px;
-    background-color: #e8f6ea;
+    background-color: #EBC7E8;
     /* font-weight: 500; */
-    color: #088178;
+    color: #645CAA;
     border: 1px solid #cce7d0;
     bottom: 20px;
     right: 10px;
@@ -297,15 +300,14 @@ body {
     color: #ef3636;
 }
 #banner button:hover{
-    background: #088178;
+    background: #645CAA;
     color: #fff;
 }
 #sm-banner{
     display: flex;
 
     justify-content: space-between;
-    /* flex-wrap: wrap; */
-    ma
+    flex-wrap: wrap;
 }
 #sm-banner .banner-box{
     display: flex;
@@ -318,6 +320,7 @@ body {
     background-size: cover;
     background-position: center;
     padding: 30px;
+    margin-top:20px;
 }
 #sm-banner .banner-box2{
     background-image: url('./img/banner/b10.jpg');
@@ -339,8 +342,8 @@ body {
     padding-bottom: 15px;
 }
 #sm-banner .banner-box:hover button{
-    background: #088178;
-    border: 1px solid #088178;
+    background: #645CAA;
+    border: 1px solid #645CAA;
 
 }
 #banner3 {
@@ -420,7 +423,7 @@ body {
     border-bottom-right-radius: 0;
 }
 #newsletter button {
-    background-color: #088178;
+    background-color: #645CAA;
     color: #fff;
     white-space: nowrap;
     border-top-left-radius: 0;
@@ -471,7 +474,7 @@ footer .follow i {
     cursor: pointer;
 }
 footer .install .row img{
-    border: 1px solid #088178;
+    border: 1px solid #645CAA;
     border-radius: 6px;
 }
 
@@ -481,7 +484,7 @@ footer .install img{
 
 footer .follow i:hover,
 footer a:hover{
-    color: #088178;
+    color: #645CAA;
 }
 
 footer .copyright{
@@ -513,7 +516,7 @@ footer .copyright{
 }
 #pagination a{
     text-decoration: none;
-    background-color: #088178;
+    background-color: #645CAA;
     padding: 15px 20px;
     border-radius: 4px;
     color: #fff;
@@ -570,7 +573,7 @@ footer .copyright{
     outline: none;
 }
 #prodetails .single-pro-details button{
-    background-color: #088178;
+    background-color: #645CAA;
     color: #fff;
 }
 #prodetails .single-pro-details span{
@@ -631,13 +634,13 @@ footer .copyright{
 
 }
 #blog .blog-details a:hover{
-    color:#088178
+    color:#645CAA
 }
 
 /*  In CSS, pseudo-elements are written after pseudo-class.  */
 #blog .blog-details a:hover::after
 {
-    background-color: #088178;
+    background-color: #645CAA;
 }
 #blog .blog-box h1{
     position: absolute;
@@ -758,7 +761,7 @@ footer .copyright{
 }
 
 #form-details form button{
-    background-color: #088178;
+    background-color: #645CAA;
     color: #fff;
     
 }
@@ -866,7 +869,7 @@ footer .copyright{
 
 #coupon button,
 #subtotal button{
-    background-color: #088178;
+    background-color: #645CAA;
     color: #fff;
     padding: 12px 20px;
 }
@@ -905,7 +908,7 @@ footer .copyright{
         right: -300px;
         height: 100vh;
         width: 300px;
-        background-color: #E3E6F3;
+        background-color: #BFACE0;
         box-shadow: 0 40px 60px rgb(0, 0,0,0.1);
         padding: 80px 0 0 10px;
         transition: 0.3s;
